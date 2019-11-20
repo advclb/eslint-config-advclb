@@ -1,14 +1,24 @@
-# Adventure Club Code Style
+# Adventure Club ESLint Config
 
-Easy code style with EditorConfig, ESLint, StyleLint, Prettier and VisualStudio Code. It is mainly for React (JavaScript) project.
+Extend Airbnb's ESLint config and fix annoying rules.
 
-## How to use
+### How to use
 
-Copy the following files into your project:
+```bash
+npm install --save-dev @advclb/eslint-config eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+```
 
-- .vscode/\*.json
-- .editorconfig
-- .eslintrc.json
-- .gitignore
-- .stylelintrc.json
-- package.json (just need `devDependencies` and `scripts` section)
+Edit `.eslintrc`:
+
+```json
+{
+  "extends": ["@advclb", ...],
+  ...
+}
+```
+
+## What is improved
+
+### jsx-a11y/label-has-associated-control: both -> either
+
+Revert to upstream's default config. [Here isn't enough evidence to prove the necessity of "both"](https://github.com/airbnb/javascript/pull/2136). If here are such devices and software, it is their bug to fix.
