@@ -13,6 +13,9 @@ module.exports = {
         assert: "either",
         depth: 25
       }
-    ]
+    ],
+    // Airbnb uses a whitelist to execlude files that requires devDependencies.
+    // That is bullshit.
+    "import/no-extraneous-dependencies": "off"
   }
 };
