@@ -1,6 +1,6 @@
 {
   "name": "@advclb/eslint-config",
-  "version": "18.0.1",
+  "version": "18.0.2",
   "description": "Adventure Club's ESLint config to fix annoying rules of eslint-config-airbnb",
   "main": "index.js",
   "scripts": {
