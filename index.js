@@ -16,6 +16,11 @@ module.exports = {
     ],
     // Airbnb uses a whitelist to execlude files that requires devDependencies.
     // That is bullshit.
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+    // File extensions can be different
+    "react/jsx-filename-extension": [
+      1,
+      { extensions: [".js", ".jsx", ".ts", ".tsx"] }
+    ]
   }
 };

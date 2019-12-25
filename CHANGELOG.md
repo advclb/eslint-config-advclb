@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [18.0.2] - 2019-12-25
+
+### Fixed
+
+- react/jsx-filename-extension: .js, .jsx, .ts, .tsx
+  It is okay to use JSX syntax in \*.js. It should also support TypeScript.
+
 ## [18.0.1] - 2019-12-20
 
 ### Fixed
@@ -25,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - jsx-a11y/label-has-associated-control: assert either
   Revert to upstream's default config. [Here isn't enough evidence to prove the necessity of "both"](https://github.com/airbnb/javascript/pull/2136). If here are such devices and software, it is their bug to fix.
 
-[unreleased]: https://github.com/advclb/eslint-config/compare/v18.0.1...HEAD
+[unreleased]: https://github.com/advclb/eslint-config/compare/v18.0.2...HEAD
+[18.0.2]: https://github.com/advclb/eslint-config/compare/v18.0.1...v18.0.2
 [18.0.1]: https://github.com/advclb/eslint-config/compare/v18.0.0...v18.0.1
 [18.0.0]: https://github.com/advclb/eslint-config/releases/tag/v18.0.0
