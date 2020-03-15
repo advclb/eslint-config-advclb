@@ -1,29 +1,43 @@
-# Adventure Club ESLint Config
+# Adventure Club ESLint Shareable Configuration
 
-Extend Airbnb's ESLint config and fix annoying rules.
-
-## How to use
+## eslint-config-advclb
 
 ```bash
-npm install --save-dev @advclb/eslint-config eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+npm i -D eslint eslint-config-advclb
 ```
 
-Edit `.eslintrc`:
+Edit `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["@advclb"]
+  "extends": ["advclb"]
 }
 ```
 
-## What is improved
+## eslint-config-advclb-react
 
-Check [CHANGELOG.md](CHANGELOG.md)
+```bash
+npm i -D eslint-config-advclb-react
+```
 
-## Copyright
+Edit `.eslintrc.json`:
 
-2019 Guo Yunhe
+```json
+{
+  "extends": ["advclb", "advclb-react"]
+}
+```
 
-## License
+## eslint-config-advclb-typescript
 
-[GNU General Public License v3.0](LICENSE)
+```bash
+npm i -D eslint-config-advclb-typescript
+```
+
+Edit `.eslintrc.json`:
+
+```json
+{
+  "extends": ["advclb", "advclb-react", "advclb-typescript"]
+}
+```
