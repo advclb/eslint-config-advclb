@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-advclb-typescript",
   "version": "0.0.0",
-  "description": "TypeScript ESLint config of Adventure Club",
+  "description": "Adventure Club TypeScript ESLint shareable configuration",
   "keywords": [
     "eslint",
     "typescript"
