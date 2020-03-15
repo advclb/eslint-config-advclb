@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-advclb-typescript",
+  "version": "0.0.0",
+  "description": "TypeScript ESLint config of Adventure Club",
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Guo Yunhe <i@guoyunhe.me>",
+  "homepage": "https://github.com/advclb/eslint-config#readme",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advclb/eslint-config-advclb.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/advclb/eslint-config-advclb/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest"
+  },
+  "devDependencies": {
+    "eslint-config-advclb": "0.0.0",
+    "eslint-config-advclb-react": "0.0.0",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "react": "latest",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  }
+}

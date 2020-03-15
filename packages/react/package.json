@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-advclb-react",
+  "version": "0.0.0",
+  "description": "React ESLint config of Adventure Club",
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "author": "Guo Yunhe <i@guoyunhe.me>",
+  "homepage": "https://github.com/advclb/eslint-config#readme",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advclb/eslint-config-advclb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/advclb/eslint-config-advclb/issues"
+  },
+  "devDependencies": {
+    "eslint-config-advclb": "0.0.0",
+    "eslint": "latest",
+    "react": "latest"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-react": "latest"
+  }
+}

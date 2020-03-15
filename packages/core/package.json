@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-advclb",
+  "version": "0.0.0",
+  "description": "Core ESLint config of Adventure Club",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Guo Yunhe <i@guoyunhe.me>",
+  "homepage": "https://github.com/advclb/eslint-config#readme",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advclb/eslint-config-advclb.git"
+  },
+  "scripts": {
+    "test": "eslint --fix tests/*.js"
+  },
+  "bugs": {
+    "url": "https://github.com/advclb/eslint-config-advclb/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "latest"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  }
+}
