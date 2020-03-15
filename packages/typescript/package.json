@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-advclb-typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adventure Club TypeScript ESLint shareable configuration",
   "keywords": [
     "eslint",
@@ -25,10 +25,10 @@
     "@typescript-eslint/parser": "latest"
   },
   "devDependencies": {
-    "eslint-config-advclb": "0.0.0",
-    "eslint-config-advclb-react": "0.0.0",
     "@types/react": "latest",
     "eslint": "latest",
+    "eslint-config-advclb": "^0.1.0",
+    "eslint-config-advclb-react": "^0.1.0",
     "react": "latest",
     "typescript": "latest"
   },
