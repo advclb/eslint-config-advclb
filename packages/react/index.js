@@ -12,6 +12,12 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn"
   },
   settings: {
-    "import/extensions": [".js", ".jsx"]
+    "import/extensions": [".js", ".jsx"],
+    react: {
+      createClass: "createReactClass",
+      pragma: "React",
+      version: "detect"
+    },
+    linkComponents: [{ name: "Link", linkAttribute: "to" }]
   }
 };
