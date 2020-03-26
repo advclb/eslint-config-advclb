@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2020-03-26
+
+### Changed
+
+- core: ecma version from 6 to 8 to support `async` and `await`
+
 ## [0.3.0] - 2020-03-20
 
 ### Added
@@ -31,7 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - react: extends plugin:react/recommended, plugin:jsx-a11y/recommended, prettier/react
 - typescript: plugin:import/typescript, plugin:@typescript-eslint/recommended, prettier/@typescript-eslint
 
-[unreleased]: https://github.com/advclb/eslint-config/compare/v0.3.0...HEAD
+[unreleased]: https://github.com/advclb/eslint-config/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/advclb/eslint-config/compare/v0.3.0...0.4.0
 [0.3.0]: https://github.com/advclb/eslint-config/compare/v0.2.0...0.3.0
 [0.2.0]: https://github.com/advclb/eslint-config/compare/v0.1.0...0.2.0
 [0.1.0]: https://github.com/advclb/eslint-config/releases/tag/v0.1.0
