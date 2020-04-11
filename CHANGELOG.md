@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.1] - 2020-04-11
+
 ### Fixed
 
 - core: import webpack inline loaders
@@ -47,7 +49,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - react: extends plugin:react/recommended, plugin:jsx-a11y/recommended, prettier/react
 - typescript: plugin:import/typescript, plugin:@typescript-eslint/recommended, prettier/@typescript-eslint
 
-[unreleased]: https://github.com/advclb/eslint-config/compare/v0.5.0...HEAD
+[unreleased]: https://github.com/advclb/eslint-config/compare/v0.5.1...HEAD
+[0.5.1]: https://github.com/advclb/eslint-config/compare/v0.5.0...0.5.1
 [0.5.0]: https://github.com/advclb/eslint-config/compare/v0.4.0...0.5.0
 [0.4.0]: https://github.com/advclb/eslint-config/compare/v0.3.0...0.4.0
 [0.3.0]: https://github.com/advclb/eslint-config/compare/v0.2.0...0.3.0
