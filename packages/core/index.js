@@ -1,5 +1,7 @@
 "use strict";
 
+const importIgnore = ["^!!"];
+
 module.exports = {
   env: {
     browser: true,
@@ -18,7 +20,10 @@ module.exports = {
     ecmaVersion: 8,
     sourceType: "module"
   },
+  rules: {
+    "import/no-unresolved": [2, { ignore: importIgnore }]
+  },
   settings: {
-    "import/ignore": ["^!!"]
+    "import/ignore": importIgnore
   }
 };
