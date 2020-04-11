@@ -1,4 +1,5 @@
 import Foobar from "./export";
+import doc from "!!@advclb/foobar-loader!./foobar.tsx";
 
 /**
  * Foobar function

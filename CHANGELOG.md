@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- core: import webpack inline loaders
+
 ## [0.5.0] - 2020-03-26
 
 ### Added
