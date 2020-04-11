@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-advclb-react",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Adventure Club React ESLint shareable configuration",
   "keywords": [
     "eslint",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "eslint": "latest",
-    "eslint-config-advclb": "^0.5.1",
+    "eslint-config-advclb": "^0.5.2",
     "react": "latest"
   },
   "peerDependencies": {
